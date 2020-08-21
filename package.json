@@ -19,10 +19,6 @@
     "@types/socket.io": "^2.1.4",
     "nodemon": "^1.19.4"
   },
-  "cacheDirectories": [
-    "client/node_modules",
-    "server/node_modules"
-  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Watch1k/chat-mix/issues"
