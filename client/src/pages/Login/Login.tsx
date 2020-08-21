@@ -35,7 +35,7 @@ const Login = () => {
       // @ts-ignore
       await MongoAPI.signup({ ...values })
     } catch (e) {
-      console.log(e.response.data)
+      console.log(e)
       return
     }
 
@@ -47,7 +47,7 @@ const Login = () => {
       // @ts-ignore
       await MongoAPI.login({ ...values })
     } catch (e) {
-      console.log(e.response.data)
+      console.log(e)
       return
     }
 
