@@ -2,9 +2,8 @@
   "name": "chat-mix",
   "version": "1.0.0",
   "description": "Chat Mix Application",
-  "main": "server/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
