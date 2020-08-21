@@ -44,5 +44,4 @@ io.on('connection', socket => {
     .on('chatMessage', ({ name, message }) => io.emit('message', formatMessage(name, message)))
 })
 
-app.get('/', (req, res) => res.send({kek: 'kek'}))
 app.use(authRoutes)
