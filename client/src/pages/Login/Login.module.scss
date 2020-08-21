@@ -1,0 +1,10 @@
+.fb {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 20px;
+  font-size: 12px;
+
+  :global(.fa) {
+    margin-right: 10px;
+  }
+}

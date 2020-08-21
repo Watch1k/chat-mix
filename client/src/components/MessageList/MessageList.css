@@ -1,0 +1,10 @@
+.scroll {
+  padding: 24px;
+  background: #fff;
+  text-align: center;
+  overflow: scroll;
+}
+
+.hide {
+  display: none;
+}
