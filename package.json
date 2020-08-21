@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Chat Mix Application",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server",
+    "build": "cd client/ && npm install && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Watch1k/chat-mix.git"
-  },
+  "cacheDirectories": [
+    "client/node_modules",
+    "server/node_modules"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Watch1k/chat-mix/issues"
